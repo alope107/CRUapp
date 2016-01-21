@@ -79,10 +79,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'ui.bootstrap'])
         }
       }
     })
-<<<<<<< HEAD
-=======
-
->>>>>>> upstream/master
+  
     .state('app.playlists', {
       url: '/playlists',
       views: {
@@ -131,10 +128,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'ui.bootstrap'])
         }
       }
   });
-<<<<<<< HEAD
-  
-=======
->>>>>>> upstream/master
 
 // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/playlists');
